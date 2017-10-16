@@ -13,7 +13,7 @@ public class Test {
 	public static void main(String[] args) {
 		MobileCodeWS mobileCodeWS = new MobileCodeWS();
 		MobileCodeWSSoap soap = mobileCodeWS.getMobileCodeWSSoap();
-		String mobileCodeInfo = soap.getMobileCodeInfo("1372007", "");
+		String mobileCodeInfo = soap.getMobileCodeInfo("13720071", "");
 
 		System.out.println(mobileCodeInfo);
 
